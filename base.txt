@@ -1,0 +1,67 @@
+###################################
+### READ BEFORE ADDING PACKAGES ###
+###################################
+#
+# When adding a package to this file ALWAYS add a comment after the package
+# name containing the software license type.
+#
+# If the license type is "AGPL", "Aferro GPL", or something
+# similar **DO NOT ADD THE PACKAGE**!
+##
+
+Django>=1.8,<1.9                    # BSD
+
+# General Python
+uwsgi>=2.0.10,<2.1                  # GPL2
+Pillow>=2.7,<3                      # PIL Standard License | https://goo.gl/kag6SZ
+newrelic==2.28.0.26                 # New Relic License | https://goo.gl/CfQdHI
+raven>=5.32                         # BSD
+requests>=2.6,<2.7                  # Apache 2.0
+unicodecsv>=0.9,<=0.10              # BSD
+
+# Django Extensions
+django-extensions>=1.5,<1.6         # MIT
+Werkzeug==0.8.1                     # BSD
+
+# General Django
+django-cors-headers==0.12           # MIT
+django-dotenv==1.2                  # BSD | https://goo.gl/fnlF5E
+django-leaflet==0.13.2              # LGPL
+django-localflavor==1.0             # BSD
+django-filter==0.11.*               # BSD
+jsonfield==0.9.22                   # MIT
+psycopg2==2.5.2                     # LGPL
+django-bulk-update                  # MIT
+django-oauth-toolkit>=0.10,<0.11    # BSD
+rules>=1.1,<1.2                     # MIT
+
+# Caching
+pylibmc                             # BSD
+django-elasticache                  # MIT
+
+# Haystack
+django-haystack==2.5.0              # BSD
+elasticsearch>=1.9.0,<2             # Apache 2.0
+
+# Celery
+celery>=3.1,<3.2                    # BSD
+django-celery>=3.1,<3.2             # BSD
+redis>=2.10,<3                      # MIT
+
+# Normalization
+fuzzywuzzy                          # Fuzzywuzzy License | https://goo.gl/GWTQDE
+
+# Static
+boto==2.29.1                        # MIT
+django-storages==1.1.8              # BSD
+
+# Api
+djangorestframework==3.2.*          # BSD
+djangorestframework-bulk==0.2.*     # MIT
+django-tastypie==0.12.2             # BSD
+markdown==2.5.2                     # BSD
+arrow==0.7.*                        # Apache 2.0
+
+
+# Deploy
+boto3                               # Apache 2.0
